@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Twister</display-name>
+  <!--  
+  <servlet>
+    <servlet-name>createUser</servlet-name>
+    <servlet-class>servlets.user.CreateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>servlets.user.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>servlets.user.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addFriend</servlet-name>
+    <servlet-class>servlets.friends.addFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>listFriends</servlet-name>
+    <servlet-class>servlets.friends.listFriends</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteFriend</servlet-name>
+    <servlet-class>servlets.friends.deleteFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>sendMessage</servlet-name>
+    <servlet-class>servlets.messages.AddMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>listMessages</servlet-name>
+    <servlet-class>servlets.messages.GetMessages</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteMessage</servlet-name>
+    <servlet-class>servlets.messages.DeleteMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>postMessage</servlet-name>
+    <servlet-class>servlets.messages.PostMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>postComment</servlet-name>
+    <servlet-class>servlets.messages.PostComment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>listPost</servlet-name>
+    <servlet-class>servlets.messages.ListPost</servlet-class>
+  </servlet>
+  -->
+  <servlet>
+    <servlet-name>createUserr</servlet-name>
+    <servlet-class>servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddMessages</servlet-name>
+    <servlet-class>servlet.AddMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListMessages</servlet-name>
+    <servlet-class>servlet.ListMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveMessages</servlet-name>
+    <servlet-class>servlet.RemoveMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Loginn</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logoutt</servlet-name>
+    <servlet-class>servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddFriends</servlet-name>
+    <servlet-class>servlet.AddFriendsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveFriends</servlet-name>
+    <servlet-class>servlet.RemoveFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddComment</servlet-name>
+    <servlet-class> servlet.AddCommentServlet </servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveComment</servlet-name>
+    <servlet-class> servlet.RemoveCommentServlet </servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddLike</servlet-name>
+    <servlet-class> servlet.AddLikeServlet </servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveLike</servlet-name>
+    <servlet-class> servlet.RemoveLikeServlet </servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListFriend</servlet-name>
+    <servlet-class> servlet.ListFriendServlet </servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListConnected</servlet-name>
+    <servlet-class> servlet.ListConnected</servlet-class>
+  </servlet>
+    
+  <!--  
+  <servlet-mapping>
+    <servlet-name>createUser</servlet-name>
+    <url-pattern>/user/createUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/user/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/user/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addFriend</servlet-name>
+    <url-pattern>/friends/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listFriends</servlet-name>
+    <url-pattern>/friends/list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFriend</servlet-name>
+    <url-pattern>/friends/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendMessage</servlet-name>
+    <url-pattern>/messages/send</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listMessages</servlet-name>
+    <url-pattern>/messages/list</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>deleteMessage</servlet-name>
+    <url-pattern>/messages/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>postMessage</servlet-name>
+    <url-pattern>/messages/postMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>postComment</servlet-name>
+    <url-pattern>/messages/postComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listPost</servlet-name>
+    <url-pattern>/messages/listPost</url-pattern>
+  </servlet-mapping>
+  -->
+  <servlet-mapping>
+    <servlet-name>createUserr</servlet-name>
+    <url-pattern>/user/create</url-pattern>
+  </servlet-mapping>
+   
+  <servlet-mapping>
+    <servlet-name>AddMessages</servlet-name>
+    <url-pattern>/message/addmessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListMessages</servlet-name>
+    <url-pattern>/message/listmessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveMessages</servlet-name>
+    <url-pattern>/message/removemessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginn</servlet-name>
+    <url-pattern>/auth/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logoutt</servlet-name>
+    <url-pattern>/auth/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFriends</servlet-name>
+    <url-pattern>/user/addfriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveFriends</servlet-name>
+    <url-pattern>/user/removefriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddComment</servlet-name>
+    <url-pattern> /message/addcomment </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveComment</servlet-name>
+    <url-pattern> /message/removecomment </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddLike</servlet-name>
+    <url-pattern> /message/addlike </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveLike</servlet-name>
+    <url-pattern> /message/removelike </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListFriend</servlet-name>
+    <url-pattern> /friends/list </url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListConnected</servlet-name>
+    <url-pattern> /listconnected </url-pattern>
+  </servlet-mapping>
+
+
+
+
+ <filter>
+    <filter-name>CorsFilter</filter-name>
+    <filter-class>CORSFilter</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>CorsFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+</web-app>
